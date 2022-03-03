@@ -9,7 +9,7 @@ export const HeroSection = styled.section`
 	box-shadow: inset 0 0 0 1000px rgba (0, 0, 0, 0.2);
 `;
 
-export const HeroVideo = styled.video`
+export const Heropic = styled.video`
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
@@ -25,7 +25,7 @@ export const HeroText = styled.p`
 	line-height: 24px;
 	text-align: center;
 	letter-spacing: 2px;
-	color: #fff;
+	color: royal blue;
 `;
 
 export const ButtonWrapper = styled.div`

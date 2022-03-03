@@ -1,46 +1,32 @@
-export const heroOne = {
-	reverse: true,
-	inverse: true,
+export const hero1 = {
+	reverse: false,
+	inverse: false,
 	topLine: {
-		text: 'Founded in 2012',
+		text: 'Over 1000+ Projects Deployed',
 	},
-	headline: "We've been in business for 9 years",
-	description: 'We have designed and implemented the best cloud security solutions',
-	buttonLabel: 'Find More',
+	headline: 'We Assure Quality',
+	description: 'Your satisfaction means the most to us.',
+	buttonLabel: 'Explore',
+
+	linkTo: '/more',
 	imgStart: 'start',
 	img: './assets/svg/Deal.svg',
 	start: 'true',
 };
 
-export const heroTwo = {
-	reverse: false,
-	inverse: false,
-	topLine: {
-		text: 'Designed & Developed',
-	},
-	headline: 'The best practices',
-	description: 'Our clients have had the best experience working with us',
-	buttonLabel: 'View Project',
-
-	linkTo: '/more',
-	imgStart: 'start',
-	img: './assets/svg/Connection.svg',
-	start: 'true',
-};
-
-export const heroThree = {
+export const hero2 = {
 	reverse: true,
 	inverse: true,
 	topLine: {
-		text: 'Highly reputed brand',
+		text: 'The Best Out There',
 	},
-	headline: 'Why us? ',
+	headline: 'Choose us ',
 	description:
-		'Our 9 year experience have allowed us to use the most innovative technologies and methodologies',
-	buttonLabel: 'View Project',
+		'Our experaince guarantees the security and realiability measures of your product.',
+	buttonLabel: 'Explore',
 
 	linkTo: '/download',
 	imgStart: '',
-	img: './assets/svg/ChartUp.svg',
+	img: './assets/svg/Connection.svg',
 	start: 'true',
 };

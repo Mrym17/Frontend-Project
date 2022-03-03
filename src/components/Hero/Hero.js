@@ -1,22 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container, MainHeading } from '../../globalStyles';
-import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './HeroStyles';
+import { Heropic, HeroSection, HeroText, ButtonWrapper, HeroButton } from './HeroStyles';
 
 const Hero = () => {
 	return (
 		<HeroSection>
-			<HeroVideo src="./assets/hero.mp4" autoPlay muted />
+			<Heropic src="./assets/data1.jpeg"/>
 			<Container>
-				<MainHeading>Your data is secure with us</MainHeading>
+				<MainHeading> Frontend Development Projects</MainHeading>
 				<HeroText>
-					We provide the best security systems for clients all over the world
+					Life ain't always rainbows and Unicorns!
 				</HeroText>
 				<ButtonWrapper>
 					<Link to="signup">
 						<Button>Get Started</Button>
 					</Link>
-					<HeroButton>Find More</HeroButton>
+					<HeroButton>Explore</HeroButton>
 				</ButtonWrapper>
 			</Container>
 		</HeroSection>

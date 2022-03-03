@@ -3,7 +3,7 @@ import Carousel from '../components/Carousel/Carousel';
 import { Content } from '../components/Content/Content';
 import Features from '../components/Features/Features';
 import Hero from '../components/Hero/Hero';
-import { heroOne, heroTwo, heroThree } from '../data/HeroData';
+import {hero1, hero2 } from '../data/HeroData';
 
 // Hero Feature Content Carousel
 
@@ -12,9 +12,8 @@ const Home = () => {
 		<>
 			<Hero />
 			<Features />
-			<Content {...heroOne} />
-			<Content {...heroTwo} />
-			<Content {...heroThree} />
+			<Content {...hero1} />
+			<Content {...hero2} />
 			<Carousel />
 		</>
 	);

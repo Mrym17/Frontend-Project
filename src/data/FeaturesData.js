@@ -9,40 +9,40 @@ const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
 	{
-		name: 'Best Security',
-		description: 'We offer the best data security to our clients, which makes us stand out',
-		icon: iconStyle(BsFillShieldLockFill),
+		name: 'Web Development',
+		description: 'We provide the development by using latest technologies.',
+		icon: iconStyle(IoIosOptions),
 		imgClass: 'one',
 	},
 	{
-		name: 'Ease of Use',
-		description: 'Our system is easy to use and integrate',
+		name: 'Frontent Design',
+		description: 'We provide the most innovative designs.',
 		icon: iconStyle(IoIosOptions),
 		imgClass: 'two',
 	},
 	{
-		name: 'Maintenance',
+		name: 'Graphic Design',
 		description: 'Our code is written in highest standards, which makes it highly sustainable',
 		icon: iconStyle(GrHostMaintenance),
 		imgClass: 'three',
 	},
 	{
-		name: '24/7 Support',
-		description: 'Our team is available at all times in case you need us',
-		icon: iconStyle(BiSupport),
+		name: 'Security',
+		description: 'Our team takes care of your security.',
+		icon: iconStyle(BsFillShieldLockFill),
 		imgClass: 'four',
 	},
 	{
-		name: 'Price',
-		description: 'We offer the highest value/cost ratio',
-		icon: iconStyle(BiDollar),
+		name: 'Reliability',
+		description: 'We develope our software with high quality code which is bug free.',
+		icon: iconStyle(BsFillShieldLockFill),
 		imgClass: 'five',
 	},
 	{
 		name: 'Scalable',
 		description:
 			'Our servers are located all over the world, therefore improving scalability and speed ',
-		icon: iconStyle(AiOutlineCloudUpload),
+		icon: iconStyle(BsFillShieldLockFill),
 		imgClass: 'six',
 	},
 ];
