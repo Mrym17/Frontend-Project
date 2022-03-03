@@ -1,4 +1,4 @@
-# Task
+# 
 
 This project is made using reactjs, html, css and javascript using IDE Visual Studio code. (Tailwind CSS was not used as I was not very confident with it so couldn't risk experimenting :( so, i'd have to learn working with it first in order to implement it.)
 
